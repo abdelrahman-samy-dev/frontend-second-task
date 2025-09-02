@@ -1,0 +1,40 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#475569;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64748b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="16" cy="16" r="16" fill="url(#bgGradient)"/>
+  
+  <!-- Brain Icon -->
+  <path d="M16 6C18.5 6 20.5 7.5 21.5 9.5C22.5 11.5 22 13.5 21 15C22 16.5 22.5 18.5 21.5 20.5C20.5 22.5 18.5 24 16 24C13.5 24 11.5 22.5 10.5 20.5C9.5 18.5 10 16.5 11 15C10 13.5 9.5 11.5 10.5 9.5C11.5 7.5 13.5 6 16 6Z" fill="url(#brainGradient)"/>
+  
+  <!-- Brain Details -->
+  <path d="M16 8C17.5 8 18.5 8.8 19 10C19.5 11.2 19.2 12.2 18.5 13C19.2 13.8 19.5 14.8 19 16C18.5 17.2 17.5 18 16 18C14.5 18 13.5 17.2 13 16C12.5 14.8 12.8 13.8 13.5 13C12.8 12.2 12.5 11.2 13 10C13.5 8.8 14.5 8 16 8Z" fill="#475569"/>
+  
+  <!-- Light Bulb (Knowledge) -->
+  <circle cx="16" cy="16" r="2.5" fill="#F59E0B"/>
+  <circle cx="16" cy="16" r="1.5" fill="#FCD34D"/>
+  
+  <!-- Quiz Elements - Question Marks -->
+  <circle cx="8" cy="8" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="24" cy="8" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="8" cy="24" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="24" cy="24" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Progress Bar -->
+  <rect x="6" y="26" width="20" height="3" rx="1.5" fill="white" opacity="0.9"/>
+  <rect x="7" y="27" width="18" height="1" rx="0.5" fill="#475569"/>
+  
+  <!-- Sparkles -->
+  <path d="M12 4L13 6L15 7L13 8L12 10L11 8L9 7L11 6L12 4Z" fill="#F59E0B" opacity="0.8"/>
+  <path d="M20 4L21 6L23 7L21 8L20 10L19 8L17 7L19 6L20 4Z" fill="#F59E0B" opacity="0.8"/>
+</svg>
